@@ -2,3 +2,5 @@ baseURL = "https://leagify.github.io/"
 languageCode = "en-us"
 title = "Leagify"
 theme = "ananke"
+[params]
+favicon = "favicons/apple-touch-icon.png"
