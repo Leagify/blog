@@ -1,0 +1,7 @@
+[submodule "leagify/public"]
+	path = leagify/public
+	url = git@github.com:leagify/leagify.github.io.git
+	branch = master
+[submodule "leagify/themes/ananke"]
+	path = leagify/themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
