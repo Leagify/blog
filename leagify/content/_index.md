@@ -16,7 +16,7 @@ Check out our [subreddit (r/leagify)](https://www.reddit.com/r/leagify/)!
 
 [Sign up to receive updates](https://goo.gl/forms/UdD2OF41LPy8ux9g2) as we move towards opening up the site for a closed beta.
 
-Want to see an example of a Leaguify league? Check out the NFL Draft league that has been set up.
+Want to see an example of a Leagify league? Check out the NFL Draft league that has been set up.
 
 {{< youtube id="Emo5tp9uPoQ" rel="false" autoplay="false" modestbranding="true" playsinline="false" >}}
 

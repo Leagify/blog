@@ -14,3 +14,5 @@ One of the first Leagify games was the a league based on the NFL Draft, based on
 Some of the charts from the original alma mater leagues were posted to the web via [Azure Websites](http://draftcharts.azurewebsites.net/), using [Google Charts](https://developers.google.com/chart/) and [Tableau Public](https://public.tableau.com/en-us/s/) as visualization tools.
 
 Original discussions occured on an instance of [Discourse](https://www.discourse.org/), but discussions have since moved to a [subreddit](https://www.reddit.com/r/leagify/).
+
+Drafts started on [Google Sheets](https://www.google.com/sheets/about/), but then moved to an online draft that was originally hosted on [OpenShift](https://www.openshift.com/).
