@@ -1,5 +1,5 @@
 ---
-title: "Draft Charts"
+title: "News"
 featured_image: '/images/chartBanner02.png'
-description: "Look here for cool charts."
+description: "Information and news about Leagify."
 ---
