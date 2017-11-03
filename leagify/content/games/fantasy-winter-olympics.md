@@ -9,7 +9,7 @@ The best of the world come together.  Have fun and guess which athletes will rei
 
 Select different countries and see who gets the most medals!
 
-One modifier that we've used in the past is to multiply the results by the inverse to the number of participants.  Example: If a country only brings half as many participants, each medal is worth twice as much!
+One modifier that we've used in the past is to multiply the results by the inverse to the number of participants. Example: If a country only brings half as many participants, each medal is worth twice as much!
 
 Here are some predictions of possible medal winners for 2018 in PyeongChang.  Maximize the chart (using the button on the lower right) for optimum browsing!
 
