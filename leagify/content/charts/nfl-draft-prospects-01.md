@@ -41,3 +41,5 @@ Rank values:
 * 301 - 400 : 1 point
 
 These big board rankings came from [DraftTek's Big Board](https://www.drafttek.com/Top-100-NFL-Draft-Prospects-2019.asp), which was last updated March 9, 2019. Only the value of the player's primary position was considered.
+
+The data is scraped, cleaned, and mushed together with a variety of code, which is available [here](https://github.com/Leagify/colly-draft-prospects) for viewing, if you're into that sort of thing.
