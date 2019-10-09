@@ -8,3 +8,9 @@ This follows the example listed in the Hugo docs here: https://gohugo.io/hosting
 
 
 The purpose is to provide more information about what Leagify is, and how people can participate in it.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Leagify/)
+
+If running in GitPod, running the server requires a slightly different command: `hugo server --baseUrl $(gp url 1313) --appendPort=false`
+
+Once the above command is running, make sure to expose port 1313.
