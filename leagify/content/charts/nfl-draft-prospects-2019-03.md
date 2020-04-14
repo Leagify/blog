@@ -9,23 +9,23 @@ I've made some updates to some existing charts and I've created a new chart, as 
 
 These charts are filterable. Click a state to see the only those prospects. Feel free to maximize the charts using the button on the lower right.
 
-<div>
+{{< rawhtml >}}
 <div class='tableauPlaceholder' id='viz1555472262675' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-LeagifyRegionalValues-04-12-WithLabels&#47;LeagifyRegionalProjections&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2019-LeagifyRegionalValues-04-12-WithLabels&#47;LeagifyRegionalProjections' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-LeagifyRegionalValues-04-12-WithLabels&#47;LeagifyRegionalProjections&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1555472262675');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</div>
+{{< /rawhtml >}}
 
 The main difference with this chart is that the number of prospects in the state now appears as a label on the state instead of appearing when you hover the cursor over a state.
 
 Here's another chart showing with a similar update:
 
-<div>
+{{< rawhtml >}}
 <div class='tableauPlaceholder' id='viz1555472391939' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-LeagifyStateValuesWithPlayersAndRanks-04-12-WithLabels&#47;LeagifyDraftValuesPreview&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2019-LeagifyStateValuesWithPlayersAndRanks-04-12-WithLabels&#47;LeagifyDraftValuesPreview' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-LeagifyStateValuesWithPlayersAndRanks-04-12-WithLabels&#47;LeagifyDraftValuesPreview&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1555472391939');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</div>
+{{< /rawhtml >}}
 
 Next, a new chart showing each individual prospect's rank variation since October of this year.
 
-<div>
+{{< rawhtml >}}
 <div class='tableauPlaceholder' id='viz1555472508082' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-PlayerVariationOverTime-04-12&#47;Variation&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2019-PlayerVariationOverTime-04-12&#47;Variation' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-PlayerVariationOverTime-04-12&#47;Variation&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1555472508082');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</div>
+{{< /rawhtml >}}
 
 Man, those people really like Nick Bosa.
 

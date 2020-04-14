@@ -9,9 +9,9 @@ The National champ has been crowned, the all-star games have been played, the co
 
 These charts are filterable. Click a state to see the only those prospects. Feel free to maximize the charts using the button on the lower right.
 
-<div>
+{{< rawhtml >}}
 <div class='tableauPlaceholder' id='viz1555132713261' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-LeagifyRegionalValues-04-12&#47;LeagifyRegionalProjections&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2019-LeagifyRegionalValues-04-12&#47;LeagifyRegionalProjections' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-LeagifyRegionalValues-04-12&#47;LeagifyRegionalProjections&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1555132713261');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</div>
+{{< /rawhtml >}}
 
 Some observations from this chart:
 
@@ -20,17 +20,17 @@ Some observations from this chart:
 
 Here's another chart showing both the states and the prospects from each state.
 
-<div>
+{{< rawhtml >}}
 <div class='tableauPlaceholder' id='viz1555132976195' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-LeagifyStateValuesWithPlayersAndRanks-04-12&#47;LeagifyDraftValuesPreview&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2019-LeagifyStateValuesWithPlayersAndRanks-04-12&#47;LeagifyDraftValuesPreview' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-LeagifyStateValuesWithPlayersAndRanks-04-12&#47;LeagifyDraftValuesPreview&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1555132976195');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</div>
+{{< /rawhtml >}}
 
 At first, this chart seems a little crazy, but it's useful to see all of the ranks to understand the variance in the player's rank over the last 6 months. The rank with the green point value next to it is the player's current value, and the value that is being used to calculate the overall state's value.
 
 Next, a line chart showing each individual prospect's journey since October of this year.
 
-<div>
+{{< rawhtml >}}
 <div class='tableauPlaceholder' id='viz1555133246218' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-PlayerLineGraph-04-12&#47;PlayerRanksOverTime&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2019-PlayerLineGraph-04-12&#47;PlayerRanksOverTime' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2019-PlayerLineGraph-04-12&#47;PlayerRanksOverTime&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1555133246218');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</div>
+{{< /rawhtml >}}
 
 Some thoughts on the line graph:
 
