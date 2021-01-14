@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Leagify</title>
@@ -18,7 +18,6 @@
       
       <guid>https://leagify.github.io/posts/welcome/</guid>
       <description>&lt;p&gt;Welcome to the (new) Leagify site!&lt;/p&gt;
-
 &lt;p&gt;Leagify was created at StartupWeekend Green Bay, partially inspired by a fantasy Winter Olympics game played by members of a local coworking space.&lt;/p&gt;</description>
     </item>
     

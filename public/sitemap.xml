@@ -1,19 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://leagify.github.io/charts/nfl-draft-prospects-2020-04/</loc>
-    <lastmod>2020-03-12T20:29:17-05:00</lastmod>
+    <loc>https://leagify.github.io/charts/nfl-draft-prospects-2021-01/</loc>
+    <lastmod>2020-10-25T04:56:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://leagify.github.io/charts/</loc>
-    <lastmod>2020-03-12T20:29:17-05:00</lastmod>
+    <lastmod>2020-10-25T04:56:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://leagify.github.io/</loc>
+    <lastmod>2020-10-25T04:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leagify.github.io/charts/nfl-draft-prospects-2020-06/</loc>
+    <lastmod>2020-04-13T21:23:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leagify.github.io/charts/nfl-draft-prospects-2020-05/</loc>
+    <lastmod>2020-04-13T21:22:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leagify.github.io/charts/nfl-draft-prospects-2020-04/</loc>
     <lastmod>2020-03-12T20:29:17-05:00</lastmod>
   </url>
   
