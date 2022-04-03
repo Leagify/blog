@@ -19,7 +19,7 @@ These charts are filterable. You can see the values overall, or by conference. I
 
 I started getting ranks on July 19, 2021, and the most recent ranks are from December 31, 2021. Here is a chart showing how each player's rank has changed during this time. This chart is a logarithmic scale, since moving 5 spots in the top 10 is a big deal, but moving 5 spots in the top 400 isn't.
 
-On the second chart, it's a big confusing until you select one of the individual schools or players, then you can see the individual movement of that player over the time that these rankings have been tabulated. Take a look at Spencer Rattler from Oklahoma or Aidan Hutchinson to see how the values can change. You can also select a school, and view all of the school's prospects at the same time.
+On the second chart, it's a bit confusing until you select one of the individual schools or players, then you can see the individual movement of that player over the time that these rankings have been tabulated. Take a look at Spencer Rattler from Oklahoma or Aidan Hutchinson to see how the values can change. You can also select a school, and view all of the school's prospects at the same time.
 
 The third chart just shows all of the players and all their ranks over time.
 
