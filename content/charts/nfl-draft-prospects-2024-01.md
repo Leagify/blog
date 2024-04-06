@@ -1,9 +1,9 @@
 +++
-title =  "NFL Draft Prospects 2024"
+title =  "2024 NFL Draft Prospects"
 date = 2024-04-06T05:44:43Z
 tags = []
 featured_image = ""
-description = ""
+description = "2024 NFL Draft Prospects"
 +++
 
 Once more into the breach, my friends! It's 2024 draft season!
