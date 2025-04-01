@@ -43,6 +43,6 @@ Rank values:
 * 251 - 300 : 2 points
 * 301 - 500 : 1 point
 
-These big board rankings came from [NFL Mock Draft Database 2025 Consensus Big Board](https://www.nflmockdraftdatabase.com/big-boards/2025/consensus-big-board-2025), which started posting 2025 prospect information quite a while ago. The earliest ranks for this draft class were from December 2022, and the most current rankings are from February 16th, 2024. Only the value of the player's primary position was considered.
+These big board rankings came from [NFL Mock Draft Database 2025 Consensus Big Board](https://www.nflmockdraftdatabase.com/big-boards/2025/consensus-big-board-2025), which started posting 2025 prospect information quite a while ago. The earliest ranks for this draft class were from December 2022, and the most current rankings are from February 16th, 2025. Only the value of the player's primary position was considered.
 
 The data is scraped, cleaned, and mushed together with a variety of code, which is available [here](https://github.com/Leagify/prospect-scraper-mddb-2022) for viewing, if you're into that sort of thing.
