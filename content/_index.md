@@ -20,4 +20,4 @@ Want to see an example of a Leagify league? Check out the NFL Draft league that 
 
 {{< youtube id="Emo5tp9uPoQ" rel="false" autoplay="false" modestbranding="true" playsinline="false" >}}
 
-Also, feel free to check out some [charts](http://draftcharts.azurewebsites.net/)!  They can make the difference between an incomprehensible game and a competitive gathering.
+Also, feel free to check out some [charts](https://leagify.github.io/charts/)!  They can make the difference between an incomprehensible game and a competitive gathering.
