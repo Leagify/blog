@@ -3,7 +3,10 @@ languageCode = "en-us"
 title = "Leagify"
 theme = "ananke"
 SectionPagesMenu = "main"
-googleAnalytics = "UA-108142998-1"
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-108142998-1"
 
 [params]
 favicon = "favicons/favicon.ico"
