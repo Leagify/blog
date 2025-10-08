@@ -4,22 +4,16 @@
     <title>News on Leagify</title>
     <link>https://leagify.github.io/posts/</link>
     <description>Recent content in News on Leagify</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Oct 2017 22:16:29 -0500</lastBuildDate>
-    
-	<atom:link href="https://leagify.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://leagify.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome!</title>
       <link>https://leagify.github.io/posts/welcome/</link>
       <pubDate>Sat, 14 Oct 2017 22:16:29 -0500</pubDate>
-      
       <guid>https://leagify.github.io/posts/welcome/</guid>
-      <description>&lt;p&gt;Welcome to the (new) Leagify site!&lt;/p&gt;
-&lt;p&gt;Leagify was created at StartupWeekend Green Bay, partially inspired by a fantasy Winter Olympics game played by members of a local coworking space.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Welcome to the (new) Leagify site!&lt;/p&gt;&#xA;&lt;p&gt;Leagify was created at StartupWeekend Green Bay, partially inspired by a fantasy Winter Olympics game played by members of a local coworking space.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

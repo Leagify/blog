@@ -1,0 +1,89 @@
+{{- $csv := .Get "csv" -}}
+{{- $title := .Get "title" | default "" -}}
+{{- $groupBy := .Get "groupBy" -}}
+{{- $valueField := .Get "value" -}}
+{{- $colorField := .Get "color" | default "" -}}
+{{- $width := .Get "width" | default "900" -}}
+{{- $height := .Get "height" | default "600" -}}
+{{- $id := printf "plot-auto-%d" (now.UnixNano) -}}
+
+<div id="{{ $id }}"></div>
+
+<script type="module">
+  import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
+  import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+  // Load CSV and add headers if not present
+  const rawData = await d3.text("{{ $csv }}");
+  const firstLine = rawData.split('\n')[0];
+
+  // Check if CSV has headers (if first row contains numbers, it likely doesn't)
+  const hasHeaders = !firstLine.match(/^\d+,\d+,/);
+
+  let data;
+  if (hasHeaders) {
+    data = d3.csvParse(rawData, d3.autoType);
+  } else {
+    // Parse without headers and add them manually, converting numeric fields
+    const rows = rawData.trim().split('\n')
+      .filter(line => line.trim())  // Remove empty lines
+      .map(line => {
+        const cols = line.split(',').map(c => c.trim().replace(/\r/g, ''));
+        return {
+          Index: +cols[0] || 0,
+          Rank: +cols[1] || 0,
+          Player: cols[2] || '',
+          School: cols[3] || '',
+          Position: cols[4] || '',
+          Date: cols[5] || '',
+          State: cols[8] || '',
+          Conference: cols[9] || '',
+          Points: +cols[10] || 0
+        };
+      });
+    data = rows;
+  }
+
+  // Calculate totals for sorting
+  const totals = d3.rollup(
+    data,
+    v => d3.sum(v, d => +d["{{ $valueField }}"]),
+    d => d["{{ $groupBy }}"]
+  );
+
+  const plot = Plot.plot({
+    {{ if $title }}title: "{{ $title }}",{{ end }}
+    width: {{ $width }},
+    height: {{ $height }},
+    marginLeft: 150,
+    marginBottom: 60,
+    x: {
+      label: "{{ $valueField }}",
+      grid: true
+    },
+    y: {
+      label: null,
+      domain: Array.from(totals.keys()).sort((a, b) => totals.get(b) - totals.get(a))
+    },
+    {{ if $colorField }}
+    color: {
+      legend: true,
+      label: "{{ $colorField }}"
+    },
+    {{ end }}
+    marks: [
+      Plot.barX(data, {
+        y: "{{ $groupBy }}",
+        x: "{{ $valueField }}",
+        {{ if $colorField }}fill: "{{ $colorField }}",{{ end }}
+        stroke: "white",
+        strokeWidth: 1,
+        tip: true,
+        title: d => `${d.Player}\n${d.School}\n${d.Position} | Rank: ${d.Rank}\nPoints: ${d["{{ $valueField }}"]}`
+      }),
+      Plot.ruleX([0])
+    ]
+  });
+
+  document.querySelector("#{{ $id }}").append(plot);
+</script>

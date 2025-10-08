@@ -70,7 +70,31 @@ description = "Description"
 
 ## Data Visualization
 
-Charts use Tableau Public embedded visualizations. The `rawhtml` shortcode allows embedding the full Tableau JavaScript initialization code. See `HUGO_VISUALIZATION_OPTIONS.md` for alternative visualization approaches (Chart.js, D3.js, Observable Plot, Vega-Lite) if migrating away from Tableau.
+### Observable Plot (Recommended)
+
+Use the `obsplot` shortcode to create interactive charts from CSV files:
+
+```markdown
+{{< obsplot csv="/data/sample/file.csv" type="bar" x="FieldName" y="OtherField" color="Category" title="Chart Title" >}}
+```
+
+**Parameters:**
+- `csv` - Path to CSV file (relative to `/static/`)
+- `type` - Chart type: `bar`, `barVertical`, `dot`, `line`
+- `x` - Field name for x-axis
+- `y` - Field name for y-axis
+- `color` - (optional) Field name for color encoding
+- `title` - (optional) Chart title
+- `width` - (optional) Chart width in pixels (default: 800)
+- `height` - (optional) Chart height in pixels (default: 400)
+
+**CSV File Location:** Place CSV files in `static/data/` directory. They'll be accessible at `/data/` URL path.
+
+**Example:** See `content/charts/observable-plot-test.md` for working examples with sample data.
+
+### Tableau Public (Legacy)
+
+Older charts use Tableau Public embedded visualizations. The `rawhtml` shortcode allows embedding the full Tableau JavaScript initialization code. See `HUGO_VISUALIZATION_OPTIONS.md` for more details.
 
 ## Theme Customization
 
