@@ -1,0 +1,72 @@
+{{- $csv := .Get "csv" -}}
+{{- $type := .Get "type" | default "bar" -}}
+{{- $title := .Get "title" | default "" -}}
+{{- $xField := .Get "x" -}}
+{{- $yField := .Get "y" -}}
+{{- $colorField := .Get "color" | default "" -}}
+{{- $width := .Get "width" | default "800" -}}
+{{- $height := .Get "height" | default "400" -}}
+{{- $id := printf "plot-%d" (now.Unix) -}}
+
+<div id="{{ $id }}"></div>
+
+<script type="module">
+  import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
+  import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+  const data = await d3.csv("{{ $csv }}");
+
+  const config = {
+    {{ if $title }}title: "{{ $title }}",{{ end }}
+    width: {{ $width }},
+    height: {{ $height }},
+    marginLeft: 120,
+    marginBottom: 60,
+    marks: []
+  };
+
+  {{ if eq $type "bar" }}
+    config.marks.push(
+      Plot.barX(data, {
+        y: "{{ $yField }}",
+        x: "{{ $xField }}",
+        {{ if $colorField }}fill: "{{ $colorField }}",{{ end }}
+        sort: { y: "-x" },
+        tip: true
+      })
+    );
+    config.y = { label: null };
+  {{ else if eq $type "barVertical" }}
+    config.marks.push(
+      Plot.barY(data, {
+        x: "{{ $xField }}",
+        y: "{{ $yField }}",
+        {{ if $colorField }}fill: "{{ $colorField }}",{{ end }}
+        tip: true
+      })
+    );
+    config.x = { label: "{{ $xField }}" };
+    config.y = { label: "{{ $yField }}" };
+  {{ else if eq $type "dot" }}
+    config.marks.push(
+      Plot.dot(data, {
+        x: "{{ $xField }}",
+        y: "{{ $yField }}",
+        {{ if $colorField }}fill: "{{ $colorField }}",{{ end }}
+        tip: true
+      })
+    );
+  {{ else if eq $type "line" }}
+    config.marks.push(
+      Plot.line(data, {
+        x: "{{ $xField }}",
+        y: "{{ $yField }}",
+        {{ if $colorField }}stroke: "{{ $colorField }}",{{ end }}
+        tip: true
+      })
+    );
+  {{ end }}
+
+  const plot = Plot.plot(config);
+  document.querySelector("#{{ $id }}").append(plot);
+</script>
