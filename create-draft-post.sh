@@ -60,13 +60,13 @@ echo "Detected date from CSV files: $DATE"
 DATA_DIR="static/data/$DATE"
 mkdir -p "$DATA_DIR"
 
-# Copy CSV files (only those matching the date pattern)
-echo "Copying CSV files to $DATA_DIR..."
-cp ${DATE}-*.csv "$DATA_DIR/" 2>/dev/null || true
+# Move CSV files (only those matching the date pattern)
+echo "Moving CSV files to $DATA_DIR..."
+mv ${DATE}-*.csv "$DATA_DIR/" 2>/dev/null || true
 
-# Count how many CSV files were copied
+# Count how many CSV files were moved
 CSV_COUNT=$(ls "$DATA_DIR"/*.csv 2>/dev/null | wc -l)
-echo "Copied $CSV_COUNT CSV file(s) to $DATA_DIR"
+echo "Moved $CSV_COUNT CSV file(s) to $DATA_DIR"
 
 # Determine the next post number for this year
 EXISTING_POSTS=$(ls content/charts/nfl-draft-prospects-${YEAR}-*.md 2>/dev/null | wc -l)
